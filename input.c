@@ -1,8 +1,8 @@
 # include <stdio.h>
 int main() {
-    int age;
-    printf("what's Your Age: ");
-    scanf("%d", &age);
-    printf("User Age is %d\n", age);
+    int USER_Age;
+    printf("what's Your USER_Age: ");
+    scanf("%d", &USER_Age);
+    printf("User USER_Age is %d\n", USER_Age);
     return 0;
 }
