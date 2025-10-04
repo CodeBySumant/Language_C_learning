@@ -2,7 +2,6 @@
     write a program to calcuate area of a circle.
 */
 #include <stdio.h>
-#define PI 3.14159
 int main() {
 
     // variable declaration
@@ -13,6 +12,6 @@ int main() {
     scanf("%f", &radius);
 
     // output
-    printf("Area of circle is: %.2f CM^2\n", PI * radius * radius);
+    printf("Area of circle is: %.2f CM^2\n", 3.14 * radius * radius);
     return 0;
 }
